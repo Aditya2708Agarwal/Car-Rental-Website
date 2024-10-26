@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #aaabad;
+        }
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            margin-top: 0px;
+        }
+        .heading button{
+            padding: 0.75rem 1.5rem;
+            outline: none;
+            border: none;
+            font-size: 1rem;
+            color: white;
+            background-color: #474fa0;
+            white-space: nowrap;
+            border-radius: 4px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        h4
+        {
+            margin-left: 20px;
+            font-size: 2rem;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h3
+        {
+           font-size: 1.5rem; 
+        }
+        .car-catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .car-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 400px;
+        }
+        .car-item button{
+                color: rgb(1, 23, 66);
+                height: 30px;
+                width: 100px;
+                
+        }
+        .car-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .car-item h2 {
+            color: #333;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        .car-item p {
+            color: #666;
+        }
+        .price {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+    <h4>A1A Car Rentals</h4>
+    <h1>Cars Available for Rental</h1>
+    <h3><a href="index.html"><button class="home_page">Back to Home</button></a></h3>
+    </div>
+    <div class="car-catalog">
+        <div class="car-item">
+            <img src="assets/Fortuner.png" alt="Sedan">
+            <h2>Toyota Fortuner</h2>
+            <p>The Toyota Fortuner is a mid-size SUV. It's built on the Hilux platform and is available in rear-wheel drive or four-wheel drive configurations.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/virtus.png" alt="SUV">
+            <h2>VW Virtus</h2>
+            <p>The Volkswagen Virtus is a sedan car with a spacious cabin, comfortable interior, and a range of safety and modern features</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/Compass (1).png" alt="Sports Car">
+            <h2>Jeep Compass</h2>
+            <p>The 2024 Jeep Compass has a 2.0L Turbo engine that produces 200 horsepower and 221 pound-feet of torque.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/Innova.png" alt="Electric Car">
+            <h2>Innova</h2>
+            <p>The Toyota Innova has 1 Diesel Engine and 1 Petrol Engine on offer.
+                The Diesel engine is 2494 cc while the Petrol engine is 1998 cc </p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/Ertiga.png" alt="Electric Car">
+            <h2>Ertiga</h2>
+            <p>a multi-purpose vehicle (MPV) that's known for its comfort, practicality.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>   
+        </div>
+        <div class="car-item">
+            <img src="assets/BMW.png" alt="Electric Car">
+            <h2>BMW</h2>
+            <p>Sports Car that's provide excellent power.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/Kushaq.png" alt="Elctric Car">
+            <h2>Skoda Kushaq</h2>
+            <p>subcompact crossover SUV manufactured by Škoda Auto in India</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+        <div class="car-item">
+            <img src="assets/Screenshot 2024-09-28 102553.png" alt="Electric Car">
+            <h2>Tata Harrier</h2>
+            <p>a mid-size SUV that offers a modern design, a diesel engine, and a five-star safety rating.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>   
+        </div>
+        <div class="car-item">
+            <img src="assets/vitara.webp" alt="Electric Car">
+            <h2>Grand Vitara</h2>
+            <p>The Grand Vitara is a 5 seater 3 cylinder car and has length of 4345 mm, width of 1795 mm and a wheelbase of 2600 mm.</p>
+            <button class="buy_item"> Rent Now </button>
+            <p class="price">₹800/day</p>
+            <p class="price">₹20,000/month</p>
+        </div>
+    </div>
+</body>
+</html>
